@@ -1,0 +1,26 @@
+<html ng-app="abc">
+    <head>
+        <title>DayJGJ2</title>
+        <script src=angular.js></script>
+        <script src="app2.js"></script>
+        
+    </head>
+    <body>
+        <div ng-controller="myfun1">
+         <table>
+             <tr>
+                 <th>Company</th>
+                 <th>Contact</th>
+                 <th>Country</th>
+             </tr>
+             <tr ng-repeat="y in obj">
+            
+                 <td>{{y.Company}}</td>
+                 <td>{{y.Contact}}</td>
+                 <td>{{y.Country}}</td>
+             </tr>
+            
+         </table>
+         </div>
+    </body>
+</html>
